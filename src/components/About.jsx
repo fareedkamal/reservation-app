@@ -51,19 +51,19 @@ const About = () => {
         </div>
         <div className='flex flex-col gap-[2em]'>
           <AboutCard
-            img='/event_1.jpg'
+            img='/reservation-app/event_1.jpg'
             title='Find innovative, flexible solutions that work'
           />
           <AboutCard
-            img='/event_2.jpg'
+            img='/reservation-app/event_2.jpg'
             title='Bring your wedding vision to life'
           />
           <AboutCard
-            img='/event_3.jpg'
+            img='/reservation-app/event_3.jpg'
             title='Explore endless ways to honor special moments'
           />
           <AboutCard
-            img='/event_4.jpg'
+            img='/reservation-app/event_4.jpg'
             title='Send teams, students or families on adventures to remember'
           />
         </div>

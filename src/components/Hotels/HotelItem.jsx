@@ -18,7 +18,7 @@ const HotelItem = ({ hotel }) => {
          `}
     >
       <img
-        src={hotel.img}
+        src={`/reservation-app/${hotel.img}`}
         className='h-full w-[100px] sm:w-[150px] md:w-[350px]'
       />
 
