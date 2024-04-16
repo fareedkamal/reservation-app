@@ -7,7 +7,7 @@ const Hero = () => {
     <div
       className='w-full h-auto lg:h-[100vh]'
       style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(/hotel_${
+        background: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(/reservation-app/hotel_${
           Math.floor(Math.random() * 10) + 1
         }.jpg)`,
         backgroundSize: 'cover',
