@@ -78,7 +78,7 @@ const Navbar = () => {
       <div className='flex justify-between'>
         <a
           className='text-[15px] md:text-[25px] font-bold cursor-pointer'
-          href='/'
+          href='/reservation-app'
         >
           Sapphire Hotels
         </a>
