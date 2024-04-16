@@ -4,7 +4,7 @@ const RoomItem = ({ room }) => {
   const navigate = useNavigate();
   const handleClick = () => {
     window.scrollTo(0, 0);
-    navigate(`/rooms/${room._id.$oid}`);
+    navigate(`/reservation-app/rooms/${room._id.$oid}`);
   };
 
   return (

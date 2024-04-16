@@ -61,7 +61,7 @@ const Room = () => {
     if (await isDuplicateReservation()) return;
     if (isRoomUnavailable()) return;
     if (!user) {
-      navigate('/login');
+      navigate('/reservation-app/login');
       return;
     }
     setBill({
@@ -74,7 +74,7 @@ const Room = () => {
 
   const handleClick = async () => {
     if (!user) {
-      navigate('/login');
+      navigate('/reservation-app/login');
     }
     const response = await axios.get(
       `http://localhost:3000/api/hotels/${room.hotel_id}`

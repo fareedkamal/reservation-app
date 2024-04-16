@@ -7,7 +7,7 @@ const HotelItem = ({ hotel }) => {
   const handleClick = () => {
     window.scrollTo(0, 0);
     console.log(hotel);
-    navigate(`/hotels/${hotel._id.$oid}`);
+    navigate(`/reservation-app/hotels/${hotel._id.$oid}`);
   };
 
   return (
