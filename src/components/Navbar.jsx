@@ -33,7 +33,7 @@ const LogoutButton = ({ username, dispatch }) => {
   const logOut = () => {
     dispatch({ type: 'LOGOUT' });
     localStorage.removeItem('user');
-    navigate('/');
+    navigate('/reservation-app');
   };
 
   return (

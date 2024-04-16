@@ -145,7 +145,7 @@ const Room = () => {
       <div className='w-[300px] sm:w-[500px] md:w-[800px] lg:w-[1100px] m-auto bg-white'>
         <div className='flex-col md:flex-row flex items-center'>
           <img
-            src={`reservation-app/${room.img}`}
+            src={`/reservation-app/${room.img}`}
             className='h-[200px] md:h-[400px] w-[600px] object-cover'
           />
           <div className='p-[1em] flex flex-col gap-[2em]'>
